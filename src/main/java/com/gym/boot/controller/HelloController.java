@@ -14,4 +14,10 @@ public class HelloController {
     public String hello(){
         return "hello,spring-boot";
     }
+
+
+    @RequestMapping("/github")
+    public String github(){
+        return "Account to github";
+    }
 }
